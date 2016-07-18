@@ -15,6 +15,8 @@ class MyApp < Sinatra::Base
   # append assets paths
   environment.append_path "assets/stylesheets"
   environment.append_path "assets/javascripts"
+  environment.append_path "assets/vendor"
+  environment.append_path "assets/img"
 
   # compress assets
   environment.js_compressor  = :uglify
