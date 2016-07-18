@@ -19,7 +19,7 @@ class MyApp < Sinatra::Base
   environment.append_path "assets/img"
 
   # compress assets
-  environment.js_compressor  = :uglify
+  # environment.js_compressor  = :uglify
   environment.css_compressor = :scss
 
   # get assets
