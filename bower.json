@@ -8,6 +8,11 @@
   "description": "Sing theme with Bootstrap",
   "license": "MIT",
   "private": true,
+  "main": [
+    "assets/javascripts/*.js",
+    "assets/sass/*.scss",
+    "assets/stylesheets/fonts/google/*.*"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
